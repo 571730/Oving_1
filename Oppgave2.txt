@@ -1,0 +1,25 @@
+Oppgave 2
+
+a)
+
+i) 0(n^^2)
+ii) O(n)
+iii) O(n^^3)
+iv) O(log(n))
+
+b)
+
+O(n^2)
+Grunnet at det er en løkke i en annen løkke
+
+c)
+	
+					Algoritme A  	Algoritme B  	Algoritme C
+Tildelinger				n+1			(n(n+1)/2)+1		1
+Addisjoner				n			  n(n+1)/2			1
+Multiplikasjoner		0				0				1
+Divisjoner				0				0				1
+Totalt					2n+1	  (2(n(n+1)/2))+1		4
+
+d)
+
