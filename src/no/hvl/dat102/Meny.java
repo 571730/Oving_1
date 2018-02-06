@@ -55,7 +55,7 @@ public class Meny {
                 System.out.println("CD-er på lager:");
                 CD[] cd = cda.hentCdTabell();
                 for (int i = 0; i < cda.antallCD(); i++){
-                    System.out.print(cd[i].getId() + ", ");
+                    System.out.print(cd[i].getId() + " - " + cd[i].getTittel() + ", ");
                 }
                 System.out.println();
                 System.out.println("Hva er ID til platen:");

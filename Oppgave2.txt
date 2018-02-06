@@ -23,3 +23,31 @@ Totalt					2n+1	  (2(n(n+1)/2))+1		4
 
 d)
 
+	t(n)		|	t(10^6)/10^6
+	log__2 n        1.9*10^-5s
+	n                 1s
+	n log__2 n       19.93s
+	n^2					11.57s
+	n^3					31 709.8år
+
+e)
+
+Det blir i værste fall kjøre gjennom hele listen uten å finne noe duplikat. Den vil da utføre:
+n(n-1)/2 operasjoner
+O-notasjon:
+O(n^2)
+
+Oppgave 4)
+
+a)
+
+Den første metoden pushpopIsEmpty() tester om en stabel fatisk ender opp tom,
+om du først pusher noe til stabelen, og deretter popper det vekk igjen.
+Exception her passer på at stabelen ikke allerede er tom når det forsøkes å poppe.
+
+Neste test sjekker at det kastes et "tomStabel" exception om stabelen er tom, og du prøver å poppe.
+
+
+
+
+
